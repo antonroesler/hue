@@ -5,6 +5,12 @@ To install: navaigte to the root direcory /hue
 ```bash
 $ pip3 install -e .
 ````
+Two environment variables must be set:
+```
+HUE_KEY = <The Key to communicate with the bridge>
+HUE_BRIDGE_IP = <IP Address of the bridge>
+```
+
 To show all lights that are accessible via the bridge, run:
 ```bash
 $ hue all
