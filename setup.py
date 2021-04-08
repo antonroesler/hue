@@ -3,12 +3,12 @@ from setuptools import setup
 setup(
     name="hue",
     version='0.1',
-    py_modules=['api'],
+    py_modules=['src'],
     install_requires=[
         'Click',
     ],
     entry_points='''
         [console_scripts]
-        hue=api:cli
+        hue=src.api:cli
     ''',
 )

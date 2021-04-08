@@ -4,8 +4,9 @@ It uses the functions from the hue script to communicate with the hue bride.
 """
 import click
 
-from hue import *
-from util import save_light_data, load_light_data
+from .util import *
+from .hue import *
+
 
 # Load the stored lights.
 LIGHTS = load_light_data()
